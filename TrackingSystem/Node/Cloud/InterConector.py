@@ -55,8 +55,6 @@ while 1:
     Localizacion2 = 'Bogota-Colombia2';
     DatoVivo='Dato_Actual'
     DatoVivo2='Dato_Actual2'
-
-  
     if Valid==1 and Valid2==1:  
      Latitud1=DatoValid2
      Longitud1=DatoValid
