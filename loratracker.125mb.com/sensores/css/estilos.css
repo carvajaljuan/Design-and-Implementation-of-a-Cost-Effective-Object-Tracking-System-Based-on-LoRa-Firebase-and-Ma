@@ -1,0 +1,586 @@
+@font-face {
+    font-family: "DINNeuzeitGrotesklt";
+    src: url(/sensores/fonts/DIN\ Neuzeit\ Grotesk\ LT\ W01\ BdCn.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    background: #F9F8F8;
+    overflow-x: hidden;
+}
+
+
+/* Header */
+
+nav {
+    width: 100%;
+    height: 103px;
+    background-color: hsl(240, 3%, 5%, 0.85);
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    height: 103px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enlaces-header {
+    font-weight: 300;
+    display: flex;
+    width: 30%;
+    min-width: 359px;
+    margin-right: 7%;
+    justify-content: space-between;
+}
+
+.nav .enlaces-header a {
+    font-family: "DINNeuzeitGrotesklt";
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    text-decoration: none;
+    transition: ease-in .2s;
+}
+
+.nav .enlaces-header a:hover {
+    color: #fff;
+}
+
+a.menu1,
+a.menu3,
+a.menu4,
+a.menu5 {
+    color: #A29C9C;
+}
+
+a.menu2 {
+    color: #fff;
+}
+
+.menu {
+    width: 103px;
+    height: 103px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 100;
+    display: none;
+}
+
+.menu>i {
+    font-size: 25px;
+    line-height: 103px;
+}
+
+.nav.contenedor {
+    width: 100%;
+}
+
+
+/*LOGO*/
+
+.logo2 {
+    font-family: "DINNeuzeitGrotesklt";
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*LOGO*/
+
+
+/*LOGO*/
+
+.logo2 {
+    font-family: "DINNeuzeitGrotesklt";
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*LOGO*/
+
+
+/* Header */
+
+.seccion1 {
+    width: 100%;
+    height: 90vh;
+    display: inline-flex;
+    align-items: center;
+    /*overflow: hidden;*/
+    justify-content: space-between;
+    background: #F9F8F8;
+}
+
+.descripcion-bloques {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contendor-slider {
+    width: 65%;
+    height: 70%;
+    display: flex;
+    border: 1px solid rgba(250, 200, 200, 0.2);
+    box-shadow: -6px 6px 2px -3px rgba(100, 100, 100, .1);
+    justify-content: flex-start;
+    overflow: hidden;
+    align-items: center;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.ventana {
+    width: 85%;
+    height: 70%;
+    margin-left: 4%;
+    border: 1px solid rgba(250, 200, 200, 0.2);
+    border-radius: 10%;
+    box-shadow: -6px 6px 2px -3px rgba(100, 100, 100, .1);
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+.ventana::-webkit-scrollbar {
+    display: none;
+}
+
+h1,
+h2 {
+    font-size: 45px;
+    font-family: "DINNeuzeitGrotesklt";
+    font-weight: 800;
+    text-align: left;
+    letter-spacing: 0.1em;
+    padding-left: 5vh;
+    text-shadow: 0 5px 5px hsl(214, 43%, 23%, 0.3);
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.subtitulo {
+    margin-top: 5%;
+    font-family: "DINNeuzeitGrotesklt";
+    color: #222222;
+    box-shadow: 0px 6px 2px -3px rgba(100, 100, 100, .1);
+    cursor: pointer;
+    font-size: 21px;
+    margin-left: 65px;
+    margin-right: 50px;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.item-sub {
+    margin-top: 5px;
+    font-family: "DINNeuzeitGrotesklt";
+    /*color: #2c5364;*/
+    color: #373d44;
+    cursor: pointer;
+    font-size: 19px;
+    margin-left: 100px;
+    margin-right: 50px;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    text-align: left;
+}
+
+h1 {
+    margin-top: 10%;
+}
+
+h2 {
+    margin-bottom: 5%;
+}
+
+.tit1 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+}
+
+.slide section {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.MQ135 img {
+    height: 40%;
+    max-width: 250px;
+}
+
+.MQ135-2 img {
+    height: 100%;  /*ANTES 70% EN AMBOS*/
+    max-width: 10;
+}
+
+.MQ135-3 img {
+    height: 75px;
+    max-width: 300px;
+    margin-left: 70px;
+}
+
+.GPS img {
+    max-width: 350px;
+    max-height: 90%;
+}
+
+.MQ135-3.slide {
+    display: none;
+}
+
+#item3 {
+    display: none;
+}
+
+.GPS2 img {
+    width: 40%;
+    filter: saturate(180%);
+}
+
+.ESP8266 img {
+    max-width: 300px;
+}
+
+.Raspberry img {
+    max-width: 370px;
+}
+
+.slide aside {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.MQ135 article,
+.MQ135-2 article,
+.GPS article,
+.ESP8266 article,
+.Raspberry article {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    align-items: space-evenly;
+    justify-content: center;
+}
+
+.MQ135-3 article {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    align-items: space-evenly;
+    justify-content: center;
+}
+
+.MQ135 article p,
+.GPS article p,
+.ESP8266 article p,
+.Raspberry article p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    color: #222222;
+    font-size: 20px;
+    line-height: 1em;
+    font-weight: normal;
+    text-align: left;
+    padding-bottom: 10%;
+}
+
+.MQ135-3 article p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222222;
+    font-size: 18px;
+    line-height: 1em;
+    font-weight: normal;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.ecuaciones {
+    display: flex;
+    width: 100%;
+    padding-bottom: 25px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+/*-----------SECCION 2 - DIAGRAMA EN BLOQUES-----------------*/
+
+.diagrama-bloques {
+    transform: translateY(6vh);
+    z-index: 0;
+    width: 100%;
+    height: 90vh;
+    display: inline-flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    background: #F9F8F8;
+}
+
+.descripcion {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contenedor-diagrama {
+    width: 65%;
+    height: 70%;
+    display: flex;
+    border: 1px solid rgba(250, 200, 200, 0.2);
+    box-shadow: -6px 6px 2px -3px rgba(100, 100, 100, .1);
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ventana {
+    width: 85%;
+    height: 70%;
+    margin-left: 4%;
+    border: 1px solid rgba(250, 200, 200, 0.2);
+    border-radius: 10%;
+    box-shadow: -6px 6px 2px -3px rgba(100, 100, 100, .1);
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+.ventana::-webkit-scrollbar {
+    display: none;
+}
+
+.diagrama-bloques img {
+    width: 96%;
+}
+
+h3,
+h4 {
+    font-size: 55px;
+    font-family: "DINNeuzeitGrotesklt";
+    font-weight: 800;
+    text-align: left;
+    letter-spacing: 0.1em;
+    padding-left: 5vh;
+    text-shadow: 0 5px 5px hsl(214, 43%, 23%, 0.3);
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.descripcion .ventana p {
+    margin-top: 5%;
+    font-family: "DINNeuzeitGrotesklt";
+    color: #222222;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    text-align: left;
+}
+
+h3 {
+    margin-top: 10%;
+}
+
+.separador {
+    z-index: 20;
+    width: 100%;
+    height: 5vh;
+    background-image: url(/index/Img/cities1.jpeg);
+    background-attachment: fixed;
+    filter: blur(1px) sepia(100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+    z-index: 10;
+    transform: translateY(3vh);
+    cursor: pointer;
+    margin: auto;
+    height: 55px;
+    width: 225px;
+    line-height: 10vh;
+    background-color: rgb(43, 43, 40);
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 2px 1px 13px 2px rgba(25, 25, 26, 0.555);
+    text-align: center;
+    font-size: 26px;
+    font-family: "DINNeuzeitGrotesklt";
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 5px rgba(96, 102, 110, 0.3);
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    transition: ease-in .2s;
+}
+
+.info:hover {
+    transform: translateY(0);
+    line-height: 6vh;
+    font-size: 28px;
+    color: rgb(201, 202, 219);
+}
+
+
+/*-------------------------OCULTAR MENU--------------------------*/
+
+#item4,
+#item5 {
+    display: none;
+}
+
+
+/*-------------------------FOOTER--------------------------*/
+
+h5 {
+    font-size: 40px;
+    font-family: "DINNeuzeitGrotesklt";
+    font-weight: 800;
+    text-align: left;
+    letter-spacing: 0.1em;
+    padding-left: 5vh;
+    background: hsla(199, 48%, 91%, 0.9);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+footer p {
+    font-family: "DINNeuzeitGrotesklt";
+    color: hsla(0, 0%, 100%);
+    font-size: 16px;
+    margin-left: 50px;
+    margin-right: 50px;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+    height: 15vh;
+    background: #1f1f20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea {
+    height: 80%;
+    width: 5px;
+    border-radius: 50%;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: lightcoral;
+}
+
+@media screen and (max-width:1600px) {
+    .seccion1 {
+        width: 1600px;
+        min-height: 840px;
+        overflow: auto;
+    }
+    footer {
+        overflow: hidden;
+    }
+    h1,
+    h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .seccion1 {
+        width: 1200px;
+        min-height: 840px;
+        overflow: auto;
+    }
+    footer {
+        overflow: hidden;
+    }
+    h1,
+    h2 {
+        font-size: 30px;
+    }
+    .tit1 {
+        font-size: 35px;
+    }
+    .MQ135 article p,
+    .GPS article p,
+    .ESP8266 article p,
+    .Raspberry article p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .MQ135-3 article p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .MQ135-3 img {
+        height: 60px;
+        margin-left: 70px;
+    }
+    .ESP8266 img,
+    .Raspberry img {
+        max-width: 250px;
+    }
+}
